@@ -6,7 +6,7 @@
 
  Utilizando localhost:8080/h2-console como meio de acesso a Banco H2.
  
-### Consulta Get
+### Utilizando o Get
 
  Podemos atraves desse projeto realiza as consultas por paginaçao utilizando a url base
  http://localhost:8080/clients
@@ -36,7 +36,7 @@ Com a url base localhost:8082/clients, podemos inserir dados conforme o modelo J
 "children": 2
 }
 
-### Utilizando PUT
+### Utilizando o PUT
 
 Nesse metodo do REST podemos alterar algum dados presente e caso nao existente temos os tratamentos de erro conforme observamos no GET
 Temos a URL localhost:8082/clients/4 sendo 4 o numero do ID como meio de acessar o banco e manipular o dado.
